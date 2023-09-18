@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emailId": {
+      "type": "email"
+    },
+    "orderId": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "orderInfo": {
+      "type": "boolean"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "integer"
+    },
+    "houseNumber": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "landmark": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "mobileNumber": {
+      "type": "integer"
+    }
+  }
+}
